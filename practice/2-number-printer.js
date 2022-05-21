@@ -6,7 +6,7 @@
 // 3
 // 4
 // 5
-function numPrinter(start,end) {
+export function numPrinter(start,end) {
   for (var i = start; i <= end; i++) {
     console.log(i)
   }
