@@ -6,3 +6,10 @@
 // 3
 // 4
 // 5
+function numPrinter(start,end) {
+  for (var i = start; i <= end; i++) {
+    console.log(i)
+  }
+}
+
+numPrinter(2,5)
